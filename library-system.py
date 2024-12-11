@@ -88,7 +88,7 @@ while True:
         if book:
             book.borrow_book()
         else:
-            print("\tBook not found.")
+            print("\nBook not found.")
 
     elif choice == '3':
         book_id = int(input("\nEnter book ID to return: "))
